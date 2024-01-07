@@ -105,7 +105,7 @@ nav a {
 /* Main Section Style */
 
 main {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -125,12 +125,15 @@ main {
     /* 166.667% */
 }
 
+section {
+    margin-top: 100px;
+}
 /* About Section Style */
 .about {
     padding: 60px 150px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 90px 60px;
+    margin: 100px 0px;
 }
 
 .about-info-container {
@@ -150,4 +153,43 @@ main {
 .info-description {
     padding: 0;
     margin: 0;
+}
+
+/* Skills related styles */
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+
+.skill {
+    padding: 33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}    
+
+/* Resume Section style*/
+
+.resume-column-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.resume-item {
+    margin-right: 10px;
+}
+
+.download-cv {
+    text-align: center;
 }
