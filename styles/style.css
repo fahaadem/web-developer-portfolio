@@ -5,6 +5,8 @@
 body {
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .btn-primary {
@@ -23,9 +25,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 160px;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -47,4 +50,104 @@ nav a {
 
 .nav-title span {
     color: #FD6E0A;
+}
+
+/* header Related style */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-size: 850px 470px, 115px 705px;
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-left: 25px;
+}
+
+
+.banner {
+    padding: 3px 50px 0px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.banner-title {
+    font-size: 80px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.banner .profile-pic {
+    width: 525px;
+    height: 625px;
+}
+
+/* Main Section Style */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+/* About Section Style */
+.about {
+    padding: 60px 150px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 90px 60px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    padding: 0;
+    margin: 0;
+}
+
+.info-description {
+    padding: 0;
+    margin: 0;
 }
