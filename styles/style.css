@@ -1,0 +1,50 @@
+/* Css Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;700;800&display=swap');
+
+/* Combined Styles */
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+
+/* navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+.nav-title span {
+    color: #FD6E0A;
+}
